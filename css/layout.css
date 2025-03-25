@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.green500 {
+  background-color: hsl(158, 36%, 37%);
+}
+.textgreen500 {
+  color: hsl(158, 36%, 37%);
+}
+.green700 {
+  color: hsl(158, 42%, 18%);
+}
+.black {
+  color: hsl(212, 21%, 14%);
+}
+.grey {
+  color: hsla(228, 12%, 48%, 0.75);
+}
+
+.cream {
+  background-color: hsl(30, 38%, 92%);
+}
+
+.white {
+  background-color: hsl(0, 0%, 100%);
+}
+.textwhite {
+  color: hsl(0, 0%, 100%);
+}
+
+.fontsize {
+  font-size: 14px;
+}
+.montSerrat {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.weight500 {
+  font-weight: 500;
+}
+.weight700 {
+  font-weight: 700;
+}
+.fraunes {
+  font-family: "Fraunces", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "SOFT" 0, "WONK" 0;
+}
+.space {
+  letter-spacing: 3px;
+  font-size: 12px;
+}
+.lineheigt {
+  font-size: 15px;
+  line-height: 25px;
+}

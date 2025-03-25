@@ -1,0 +1,65 @@
+@media only screen and (min-width: 768px) {
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .hidden {
+    display: none;
+  }
+
+  main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    width: 50%;
+    height: 70%;
+    h1 {
+      font-size: 45px;
+    }
+    img {
+      width: 300px;
+      height: 100%;
+      border-radius: 20px 0 0 20px;
+    }
+    section {
+      display: flex;
+      justify-content: space-evenly;
+      height: 100%;
+      flex-direction: column;
+      padding: 40px;
+      gap: 10px;
+    }
+  }
+  .price {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 30px;
+    font-size: 40px;
+    span {
+      font-size: 10px;
+      text-decoration: line-through;
+    }
+  }
+  button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 5px;
+    border: none;
+    height: 100%;
+    img {
+      width: 15px;
+      object-fit: contain;
+    }
+  }
+}
