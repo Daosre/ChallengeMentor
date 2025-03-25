@@ -4,6 +4,9 @@
     justify-content: center;
     padding: 10px;
   }
+  .hidden2 {
+    display: none;
+  }
   article {
     align-items: center;
     border-radius: 20px;
