@@ -62,4 +62,7 @@
       object-fit: contain;
     }
   }
+  button:active {
+    background-color: hsl(158, 42%, 18%);
+  }
 }
